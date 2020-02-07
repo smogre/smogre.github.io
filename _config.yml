@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Saurabh Mogre"
-  avatar           : "profile.png"
+  avatar           : "SaurabhMogre.jpg"
   bio              : "Physics PhD candidate at the University of California San Diego"
   location         : "La Jolla, CA"
   employer         :  
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=1b1E3x8AAAAJ&hl=en"
-  email            :
+  email            : "smogre@ucsd.edu"
   researchgate     : "https://www.researchgate.net/profile/Saurabh_Mogre"
   uri              :
   bitbucket        :
@@ -191,17 +191,6 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: ""
