@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Personal webpage for Saurabh Mogre"
+title                    : "Saurabh Mogre / Home Page"
 title_separator          : "-"
-name                     : &name "Saurabh Mogre"
-description              : &description "Personal webpage for Saurabh Mogre"
+name                     : "Saurabh Mogre"
+description              : "Personal webpage for Saurabh Mogre"
 url                      : https://smogre.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "smogre/smogre.github.io"
