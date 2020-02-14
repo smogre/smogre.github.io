@@ -10,6 +10,6 @@ redirect_from:
 
 I am a Ph.D. candidate in the Physics department at UCSD, developing theoretical and computational models of biological processes. I work with extensive imaging data from live cells to refine model predictions and learn dynamic features of intracellular transport. 
 
-Please check out the left and top navigation bars for contact information and other details. 
+Please check out the navigation bars (left and top on Web, top right on Mobile) for contact information and other details. 
 
 This webpage is under construction. Last updated: 13th February, 2020.
