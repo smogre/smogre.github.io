@@ -9,32 +9,34 @@ redirect_from:
 
 {% include base_path %}
 
+PDF version available [here](https://smogre.github.io/files/SaurabhMogreCV.pdf)
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Physics, University of California San Diego (UCSD), 2021 (expected)
+* M.Tech. in Engineering Physics, Indian Institute of Technology (IIT) Bombay, 2015
+* B.Tech. in Engineering Physics, Indian Institute of Technology (IIT) Bombay, 2015
+  * Minor in Biosciences and Bioengineering
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Mathematical modeling
+  * Brownian dynamics simulations
+  * Stochastic processes
+* Programming
+  * Matlab
+  * Python
+    * numpy, scikitlearn, pandas, tensorflow
+  * FORTRAN
+* Data analysis, statistics and machine learning
+  * Regressions, Bayesian classification theory
+  * Deep learning and neural networks
+
+Awards
+======
+* VMCC/CTSBB Pre-doctoral Fellowship (UCSD)
+* Physics Excellence Fellowship (UCSD)
+* Heritage fund scholarship (IIT Bombay)
 
 Publications
 ======
@@ -53,7 +55,14 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Workshops
 ======
-* Currently signed in to 43 different slack teams
+<ul>{% for post in site.workshops %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Service and mentoring
+======
+* Volunteer at the Tech Trek Summer Camp, UCSD; an outreach program for middle schoolers
+* Advisor, Research Scholars Summer Project
