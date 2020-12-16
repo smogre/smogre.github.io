@@ -28,6 +28,11 @@ Skills
   * Python
     * numpy, scikitlearn, pandas, tensorflow
   * FORTRAN
+* Microscopy, Image processing and analysis
+  * Image segmentation and single particle tracking in 3D
+  * Image processing tools using Matlab and ImageJ/FIJI
+  * Lattice Light-sheet microscopy
+  * Spinning disk confocal microscopy
 * Data analysis, statistics and machine learning
   * Regressions, Bayesian classification theory
   * Deep learning and neural networks
