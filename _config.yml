@@ -21,14 +21,14 @@ repository               : "smogre/smogre.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Saurabh_Mogre-Allen-Institute-Headshot-4x5Crop-Ludeman-Photographic.jpg"
   name             : "Saurabh Mogre"
   pronouns         : # example: "she/her"  
   bio              : "Biophysicist building theoretical and computational models of cells"
   location         : "Seattle, WA, USA"
-  # employer         : "Red Brick University"
-  # uri              : # URL
-  # email            : "none@example.org" 
+  employer         : # "Red Brick University"
+  uri              : # URL
+  email            : "saurabhmogre [at] gmail [dot] com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile

@@ -6,5 +6,25 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-Under construction
+Under Construction - last updated May 2024
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
