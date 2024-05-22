@@ -21,7 +21,8 @@ repository               : "smogre/smogre.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Saurabh_Mogre-Allen-Institute-Headshot-4x5Crop-Ludeman-Photographic.jpg"
+  # avatar           : "Saurabh_Mogre-Allen-Institute-Headshot-4x5Crop-Ludeman-Photographic.jpg"
+  avatar           : "Saurabh_Mogre-Allen-Institute-Headshot-4x4.jpg"
   name             : "Saurabh Mogre"
   pronouns         : # example: "she/her"  
   bio              : "Biophysicist building theoretical and computational models of cells"
