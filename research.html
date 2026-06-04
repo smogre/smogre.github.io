@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh Mogre | Research</title>
+    <meta name="description" content="Research by Saurabh Mogre on biophysical theory, computational models, and machine learning frameworks for understanding and engineering how proteins, organelles, cells, and tissues organize and build themselves.">
+    <meta name="author" content="Saurabh Mogre">
+    <meta property="og:title" content="Saurabh Mogre | Research">
+    <meta property="og:description" content="Research by Saurabh Mogre on biophysical theory, computational models, and machine learning frameworks for understanding and engineering how proteins, organelles, cells, and tissues organize and build themselves.">
+    <meta property="og:image" content="https://smogre.github.io/saurabh_mogre_headshot.jpg">
+    <meta property="og:url" content="https://smogre.github.io/research.html">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">Saurabh<span>Mogre</span></a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="research.html" class="active">Research</a>
+            <a href="publications.html">Publications</a>
+        </div>
+    </nav>
+
+    <main>
+        <h1 class="section-title">Research</h1>
+        <p class="body-text" id="research-interests" style="margin-bottom: 2.5rem;">My research combines biophysical theory, multi-scale simulations, and machine learning with high-throughput 3D and 4D bioimaging to study how biological systems organize and build themselves across scales: from molecular motors and cytoskeletal filaments to 3D organelle packing (cellPACK), single-cell morphodynamics, and multicellular tissues.</p>
+
+        <div id="research-projects-container">
+            <article class="research-project">
+                <h3>Generative Modeling of Intracellular Organization</h3>
+                <p>I develop generative modeling frameworks using cellPACK to simulate, test, and quantify 3D spatial intracellular organization in hiPSCs. By combining geometric constraints and candidate interaction rules with geometry-aware point-cloud representations across thousands of single-cell images, this work connects sub-cellular packing mechanisms to observable cellular phenotypes.</p>
+                <div class="project-tags">
+                    <span class="tag">Generative Modeling</span>
+                    <span class="tag">Spatial Biology</span>
+                    <span class="tag">cellPACK</span>
+                    <span class="tag">Stem Cells (hiPSCs)</span>
+                    <span class="tag">Volume Exclusion</span>
+                </div>
+                <div class="project-pubs">
+                    <a class="project-pub-ref" href="publications.html#mogre-bps-2025">Mogre et al., Biophysical Society Annual Meeting 2025</a>
+                    <a class="project-pub-ref" href="publications.html#mogre-ascb-2024">Mogre et al., ASCB | EMBO Cell Bio 2023 &amp; 2024</a>
+                    <a class="project-pub-ref" href="publications.html#mogre-bps-2024">Mogre et al., Biophysical Society Annual Meeting 2024</a>
+                </div>
+            </article>
+
+            <article class="research-project">
+                <h3>3D Representation Learning for Cell Structures</h3>
+                <p>We developed an interpretable deep learning framework to parameterize and compare complex 3D multi-piece intracellular structures from high-resolution microscopy using point clouds. This approach enables systematic quantitative analysis of organelle morphology and spatial relationships across large single-cell datasets.</p>
+                <div class="project-tags">
+                    <span class="tag">Deep Learning</span>
+                    <span class="tag">Point Clouds</span>
+                    <span class="tag">3D Morphology</span>
+                    <span class="tag">Representation Learning</span>
+                    <span class="tag">PyTorch</span>
+                </div>
+                <div class="project-pubs">
+                    <a class="project-pub-ref" href="publications.html#vasan-2025">Vasan et al., Nature Methods 2025</a>
+                    <a class="project-pub-ref" href="publications.html#vasan-bps-2025">Vasan et al., Biophysical Society Annual Meeting 2025</a>
+                </div>
+            </article>
+
+            <article class="research-project">
+                <h3>Compositional &amp; Multi-Scale Biophysical Modeling</h3>
+                <p>In this collaborative work, we compared molecular- and mesoscopic-scale simulation engines (including ReaDDy particle-based reaction-diffusion and Cytosim filament mechanics) to establish principles for compositional biophysical modeling. By benchmarking actin filament compression and buckling across scales, we quantified trade-offs between computational cost and structural fidelity (such as capturing helical supertwist) to guide multi-algorithmic cellular simulations. We are now working on extending this framework to compose models across scales from molecular dynamics to multicellular systems.</p>
+                <div class="project-tags">
+                    <span class="tag">Compositional Modeling</span>
+                    <span class="tag">ReaDDy &amp; Cytosim</span>
+                    <span class="tag">Cytoskeletal Mechanics</span>
+                    <span class="tag">Multi-Scale Simulation</span>
+                    <span class="tag">Benchmarking</span>
+                </div>
+                <div class="project-pubs">
+                    <a class="project-pub-ref" href="publications.html#lyons-mogre-2025">Lyons*, Mogre*, Vegesna*, Yu*, et al., microPublication Biology 2025</a>
+                    <a class="project-pub-ref" href="publications.html#vegesna-bps-2024">Vegesna*, Mogre*, Yu*, Lyons*, et al., Biophysical Society Annual Meeting 2024</a>
+                </div>
+            </article>
+
+            <article class="research-project">
+                <h3>Colony Context &amp; Nuclear Morphogenesis</h3>
+                <p>As part of a large-scale 4D (3D + time) live-cell imaging study, I contributed quantitative trajectory analysis and modeling to investigate how local colony crowding and size-dependent compensation mechanisms regulate nuclear growth and size homeostasis across human iPSC populations.</p>
+                <div class="project-tags">
+                    <span class="tag">4D Live-Cell Imaging</span>
+                    <span class="tag">Nuclear Growth Trajectories</span>
+                    <span class="tag">Size Homeostasis</span>
+                    <span class="tag">Stem Cell Biology</span>
+                </div>
+                <div class="project-pubs">
+                    <a class="project-pub-ref" href="publications.html#dixon-2025">Dixon et al., Cell Systems 2025</a>
+                </div>
+            </article>
+
+            <article class="research-project">
+                <h3>Endothelial Cell Morphodynamics Under Shear Stress</h3>
+                <p>In this collaborative study, we characterized a shear stress-dependent bifurcation in hiPSC-derived endothelial cell states identified via unsupervised machine learning on time-lapse microscopy.</p>
+                <div class="project-tags">
+                    <span class="tag">Dynamical Systems</span>
+                    <span class="tag">Bifurcation Analysis</span>
+                    <span class="tag">Morphological State Space</span>
+                    <span class="tag">Mechanobiology</span>
+                </div>
+                <div class="project-pubs">
+                    <a class="project-pub-ref" href="publications.html#angelini-2026">Angelini et al., bioRxiv 2026</a>
+                </div>
+            </article>
+
+            <article class="research-project">
+                <h3>Axonal Autophagy &amp; Organelle Maturation Dynamics</h3>
+                <p>I integrated quantitative trajectory analysis of dual-color live-cell microscopy with stochastic reaction-transport modeling to uncover how autophagosomes mature along neuronal axons. Our work showed that retrograde autophagosomes undergo remarkably few lysosome fusion events and exhibit slow, two-step luminal acidification and degradative maturation, identifying key physical and kinetic bottlenecks in neuronal clearance.</p>
+                <div class="project-tags">
+                    <span class="tag">Neuronal Autophagy</span>
+                    <span class="tag">Live-Cell Trajectory Analysis</span>
+                    <span class="tag">Stochastic Transport Modeling</span>
+                    <span class="tag">Organelle Fusion &amp; Maturation</span>
+                </div>
+                <div class="project-pubs">
+                    <a class="project-pub-ref" href="publications.html#cason-mogre-2022">Cason*, Mogre*, et al., Molecular Biology of the Cell 2022</a>
+                    <a class="project-pub-ref" href="publications.html#cason-2023">Cason, Mogre, et al., Autophagy Reports 2023</a>
+                </div>
+            </article>
+
+            <article class="research-project">
+                <h3>Organelle Hitchhiking &amp; Cytoskeletal Network Optimization</h3>
+                <p>I built 3D Brownian dynamics and Monte Carlo simulations (in C++/CUDA and FORTRAN) to investigate how organelles initiate directed transport and capture molecular motors. We modeled the mechanical and geometric determinants of linker-mediated <em>organelle hitchhiking</em> on carrier vesicles, and identified optimal microtubule length distributions and minus-end polarity arrangements that maximize rapid dynein-driven cargo capture in elongated cells.</p>
+                <div class="project-tags">
+                    <span class="tag">Brownian &amp; Monte Carlo Simulation</span>
+                    <span class="tag">Organelle Hitchhiking</span>
+                    <span class="tag">Microtubule Architecture</span>
+                    <span class="tag">Cargo Capture Optimization</span>
+                    <span class="tag">C++/CUDA &amp; FORTRAN</span>
+                </div>
+                <div class="project-pubs">
+                    <a class="project-pub-ref" href="publications.html#mogre-2021">Mogre et al., Biophysical Journal 2021</a>
+                    <a class="project-pub-ref" href="publications.html#mogre-2020">Mogre et al., Biophysical Journal 2020</a>
+                </div>
+            </article>
+
+            <article class="research-project">
+                <h3>Multimodal Transport &amp; Diffusive Search in Constrained Geometries</h3>
+                <p>I developed analytical master-equation and propagator frameworks to characterize how intracellular cargo navigates narrow tubular cells and interconnected networks. These models quantify how alternating motor-driven runs, passive diffusion, and reversible tethering govern organelle dispersion, mixing, and first-passage search times across cellular scales.</p>
+                <div class="project-tags">
+                    <span class="tag">Analytical Biophysics</span>
+                    <span class="tag">Master Equations &amp; Propagators</span>
+                    <span class="tag">Tubular Networks</span>
+                    <span class="tag">First-Passage Dynamics</span>
+                </div>
+                <div class="project-pubs">
+                    <a class="project-pub-ref" href="publications.html#scott-2021">Scott et al., EPJ E 2021</a>
+                    <a class="project-pub-ref" href="publications.html#mogre-review-2020">Mogre, Brown &amp; Koslover, Physical Biology 2020</a>
+                    <a class="project-pub-ref" href="publications.html#mogre-2018">Mogre &amp; Koslover, Physical Review E 2018</a>
+                </div>
+            </article>
+
+            <article class="research-project">
+                <h3>Hydrodynamics &amp; Domain Diffusion in Lipid Bilayer Membranes</h3>
+                <p>We derived analytical expressions for the lateral diffusion coefficients of circular domains in lipid bilayer membranes, accounting for interleaflet friction, leaflet viscosity contrasts, and hydrodynamic coupling to the surrounding solvent and substrate.</p>
+                <div class="project-tags">
+                    <span class="tag">Membrane Biophysics</span>
+                    <span class="tag">Low-Reynolds-Number Hydrodynamics</span>
+                    <span class="tag">Interleaflet Coupling</span>
+                    <span class="tag">Analytical Modeling</span>
+                </div>
+                <div class="project-pubs">
+                    <a class="project-pub-ref" href="publications.html#seki-2014">Seki, Mogre &amp; Komura, Physical Review E 2014</a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <span>&copy; 2026 Saurabh Mogre · Seattle, WA</span>
+        <div class="footer-links">
+            <a href="https://github.com/mogres" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
+            <a href="https://scholar.google.com/citations?user=1b1E3x8AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar profile">Google Scholar</a>
+            <a href="https://www.linkedin.com/in/saurabh-mogre/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+            <a href="https://orcid.org/0000-0002-3781-5161" target="_blank" rel="noopener noreferrer" aria-label="ORCID profile">ORCID</a>
+        </div>
+    </footer>
+</body>
+</html>
